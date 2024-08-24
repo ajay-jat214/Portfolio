@@ -1,0 +1,235 @@
+.box{
+  border : 1px solid white;
+  height : 345px;
+  width  : 280px;
+  margin : 10px;
+  object-fit : cover;
+  border-radius : 15px;
+  display : flex column;
+  align-items : center;
+  justify-content : center;
+  opacity : 1;
+  box-shadow : 0px 2px 5px 0px rgba(31,31,31,1);
+  transition: background-color 0.3s ease;
+  overflow : hidden;
+  position : relative;
+}
+
+.box-container{
+  display : flex;
+  justify-content: space-around;
+  gap: 20px;
+  position : relative;
+}
+
+.box-img{
+  width : 100%;
+  height: 100%;
+  border-radius: 15px;
+  display : block;
+}
+
+.overlay-title {
+  position : absolute;
+  margin-top : 150px;
+  text-align : center;
+  color : white;
+  width: 100%;
+}
+
+@media(max-width : 680px){
+  .box{
+    width : 380px;
+    max-height : auto;
+  }
+}
+
+
+.box:hover .overlay-title{
+  transform : translateY(-200px);
+  transition: transform 0.3s ease;
+}
+
+.site-description{
+  padding-top : 400px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  padding-left : 15px;
+  padding-right : 15px;
+  font-size : 15px;
+  font-weight : bold;
+  text-align : center;
+}
+
+.box:hover .site-description{
+  transform : translateY(-250px);
+  transition: transform 0.3s ease;
+  opacity : 1;
+  color : white;
+}
+
+.site-description .overlay-title{
+  opacity : 1;
+  color : white;
+}
+
+.gray-scale{
+  filter : grayscale(70%) contrast(70%);
+}
+
+.title{
+  font-weight : bold;
+  font-size : 4rem;
+  margin-bottom : 75px;
+}
+
+.title:hover{
+  color: #1890ff;
+}
+
+.codeIcon{
+  margin-bottom:30px;
+  padding: 20px;
+}
+
+.codeIcon:hover{
+  background:white;
+  color:black;
+  border-radius : 100px;
+}
+
+.skills{
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skillset{
+  font-size: 25px;
+}
+
+.skill{
+  padding:20px;
+}
+
+.skillDescription{
+  font-size: 18px;
+}
+
+.mb6{
+  padding-bottom : 100px;
+}
+
+.github .linkedin{
+  cursor: pointer;
+}
+
+.linkedin:hover{
+  color:#1890ff;
+}
+
+.github:hover{
+  color:#1890ff;
+}
+
+.preview-resume:hover{
+  color:#1890ff;
+}
+
+.unselectable {
+    user-select: none; /* Prevents text selection */
+    -webkit-user-select: none; /* For Chrome, Safari, and newer versions of Opera */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer and Edge */
+    /* Optional: Additional styling */
+}
+
+.techs{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description1{
+  text-align: start;
+  max-width: 1200px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+.horizontalLine{
+    width: 50%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the element horizontally */
+}
+
+.resume:hover{
+  color:blue;
+}
+
+@media(max-width : 1130px){
+
+  .bel{
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .paytm{
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .flamingo{
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+}
+
+@media(min-width : 900px){
+
+  .description{
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+}
+
+@media(min-width : 1700px){
+  .box-container{
+    margin-left: 100px;
+    margin-right:100px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .skills{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+@media(min-width : 1700px){
+
+  .description{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+}
+
+@media(max-width : 900px){
+
+  .description{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
