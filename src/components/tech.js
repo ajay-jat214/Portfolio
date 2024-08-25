@@ -13,7 +13,10 @@ function Tech(){
       <img src="cpp.png" alt="CPP" style={{height:"70px",width:"70px",margin:"20px"}}/>
       <img src="c.svg" alt="C" style={{height:"70px",width:"70px",margin:"20px"}}/>
       <img src="mysql.svg" alt="Mysql" style={{height:"70px",width:"70px",margin:"20px"}}/>
-      <img src="redux.png" alt="Redux" style={{height:"70px",width:"70px",margin:"20px"}}/>
+      <img src="redux.svg" alt="Redux" style={{height:"70px",width:"70px",margin:"20px"}}/>
+      <img src="python.svg" alt="Python" style={{height:"70px",width:"70px",margin:"20px"}}/>
+      <img src="springboot.svg" alt="SpringBoot" style={{height:"70px",width:"70px",margin:"20px",backgroundColor:"white"}}/>
+      <img src="matlab.svg" alt="Matlab" style={{height:"70px",width:"70px",margin:"20px"}}/>
       <img src="npm.png" alt="NPM" style={{height:"70px",width:"70px",margin:"20px"}}/>
       <img src="css3.png" alt="CSS3" style={{height:"70px",width:"70px",margin:"20px"}}/>
       <img src="git.png" alt="Got" style={{height:"70px",width:"70px",margin:"20px"}}/>
