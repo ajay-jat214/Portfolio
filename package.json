@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://ajay-jat214.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.4.0",
@@ -46,6 +47,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+>>>>>>> 34e685c107c510d7b02a8ea7b353619042ee797b
     "gh-pages": "^6.3.0"
   }
 }
