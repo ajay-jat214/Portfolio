@@ -18,7 +18,7 @@ import "../css/navbar.css";
 //}
 
 function Navbar({handleNavLink}){
-  const navMenu = useRef(document.querySelector(".nav-menu"));
+ // const navMenu = useRef(document.querySelector(".nav-menu"));
   const [isactive,setIsactive] = useState(false);
   const [isBarSelected,setIsBarSelected] = useState(false);
   const mobileMenu = (event) =>{
@@ -33,7 +33,7 @@ function Navbar({handleNavLink}){
     setIsBarSelected(!isBarSelected);
     handleNavLink(val);
   }
-  const navLink = document.querySelectorAll(".nav-link");
+  //const navLink = document.querySelectorAll(".nav-link");
 
 //navLink.forEach(n => n.addEventListener("click", closeMenu));
 
