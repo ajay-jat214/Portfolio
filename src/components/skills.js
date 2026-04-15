@@ -1,7 +1,7 @@
 import {CodepenOutlined} from '@ant-design/icons';
-import {PictureOutlined} from '@ant-design/icons';
+//import {PictureOutlined} from '@ant-design/icons';
 import BrushIcon from '@mui/icons-material/Brush';
-import Icon from '@mui/material/Icon';
+//import Icon from '@mui/material/Icon';
 import './projects.css';
 
 function Skills(){
