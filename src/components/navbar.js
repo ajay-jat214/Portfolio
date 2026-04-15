@@ -1,4 +1,4 @@
-import { useState,useRef } from 'react';
+import { useState } from 'react';
 import "../css/navbar.css";
 
 //const hamburger = document.querySelector(".hamburger");
